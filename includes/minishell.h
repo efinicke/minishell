@@ -6,7 +6,7 @@
 /*   By: efinicke <efinicke@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/30 18:09:49 by spayeur           #+#    #+#             */
-/*   Updated: 2022/02/07 15:40:52 by efinicke         ###   ########.fr       */
+/*   Updated: 2022/02/08 03:52:39 by efinicke         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -184,11 +184,9 @@ void			send_error(char *error_message);
 
 /*                              tests functions                               */
 
-/*int			return_lst_size(t_cmd *cmd_lst);
 void			display_cmd_lst(t_cmd *cmd_lst);
-void			display_struct(t_lx *datas);
 void			display_str_tab(char **tab);
-void			display_int_tab(int *tab);*/
+void			display_int_tab(int *tab);
 
 /* ******************************** Builtins ******************************** */
 

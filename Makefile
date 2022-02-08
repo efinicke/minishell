@@ -6,7 +6,7 @@
 #    By: efinicke <efinicke@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/13 16:30:59 by spayeur           #+#    #+#              #
-#    Updated: 2022/02/07 14:16:09 by spayeur          ###   ########.fr        #
+#    Updated: 2022/02/08 03:53:38 by efinicke         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -91,7 +91,8 @@ SRC_FILES_PARSING	=	00_call_and_return_cmd_lst.c \
 				19_utils_str_tab.c \
 				20_utils_struct.c \
 				21_utils_linked_list.c \
-				22_utils_stderr.c
+				22_utils_stderr.c \
+				23_test_functions.c
 
 SRCS_PARSING		=	$(addprefix $(SRC_DIR)/parsing/, $(SRC_FILES_PARSING))
 
